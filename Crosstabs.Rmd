@@ -1,0 +1,14 @@
+---
+title: "Statistical Output"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, comment=NA}
+cat(OutputLine)
+```
+
+`r OutputLine`

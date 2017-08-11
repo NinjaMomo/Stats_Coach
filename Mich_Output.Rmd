@@ -1,0 +1,28 @@
+---
+# title: "Statistical Coach Output"
+# author: "OLSPS Analytics (SA)"
+
+output:  word_document
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message= FALSE)
+
+```
+
+```{r date, echo=FALSE}
+#Sys.Date()
+```
+
+```{r echo = FALSE, results = "asis", message= FALSE}
+for(i in 1:length(output))
+{
+  cat(output[i])
+}
+
+```
+
+
+
